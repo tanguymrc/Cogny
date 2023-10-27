@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="" en">
+
+<head>
+    <meta charset="UTF-8"> <!-- required to handle UTF-8 character encoding -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- required to handle IE -->
+    <meta name="" viewport" content="width=device-width, initial-scale=1.0"> <!-- required to handle mobiles -->
+    <title>Face Detection</title> <!-- title of the page -->
+</head>
+
+<body>
+    <h1>Face Detection</h1> <!-- title -->
+    <video id="video" autoplay style="display: none"></video> <!-- display: none to hide the video element -->
+    <canvas id="canvas" width="600px" height="400px"></canvas> <!-- canvas to draw the video frame -->
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script> <!-- tensorflow library -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/blazeface"></script> <!-- model to detect faces -->
+<script src="script.js"></script> <!-- script to handle the face detection -->
+
+</html>
